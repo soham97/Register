@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.AppBarLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/tToolbar"
+                    android:minHeight="?attr/actionBarSize"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="5dp"
+                    app:titleTextColor="@color/cardview_light_background"
+                    app:layout_scrollFlags="scroll|enterAlways">
+                </android.support.v7.widget.Toolbar>
+
+            </android.support.design.widget.AppBarLayout>
+
+            <Button
+                android:id="@+id/dateF"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp" />
+
+            <EditText
+                android:id="@+id/projectF"
+                android:textAlignment="center"
+                android:hint="@string/project_name"
+                android:inputType="textNoSuggestions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp" />
+
+            <EditText
+                android:id="@+id/vendorF"
+                android:textAlignment="center"
+                android:hint="@string/Vendor"
+                android:inputType="textNoSuggestions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp" />
+
+            <EditText
+                android:id="@+id/teamsF"
+                android:textAlignment="center"
+                android:hint="@string/teams"
+                android:inputType="textNoSuggestions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp" />
+
+            <EditText
+                android:id="@+id/teamstotalF"
+                android:textAlignment="center"
+                android:hint="@string/total_teams"
+                android:inputType="textNoSuggestions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp" />
+
+            <EditText
+                android:id="@+id/dcF"
+                android:textAlignment="center"
+                android:hint="@string/dc"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp" />
+
+            <EditText
+                android:id="@+id/hvF"
+                android:textAlignment="center"
+                android:hint="@string/hv"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp" />
+
+            <EditText
+                android:id="@+id/workF"
+                android:textAlignment="center"
+                android:hint="@string/work"
+                android:inputType="textNoSuggestions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp" />
+
+            <EditText
+                android:id="@+id/unknownF"
+                android:textAlignment="center"
+                android:hint="@string/sec"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp" />
+
+            <EditText
+                android:id="@+id/dc_completeF"
+                android:textAlignment="center"
+                android:hint="@string/dc_complete"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp" />
+
+            <EditText
+                android:id="@+id/hv_completeF"
+                android:textAlignment="center"
+                android:hint="@string/hv_complete"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp" />
+
+            <EditText
+                android:id="@+id/remarksF"
+                android:textAlignment="center"
+                android:hint="@string/remarks"
+                android:inputType="textNoSuggestions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

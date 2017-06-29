@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary" >
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgLogo"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:gravity="center_horizontal"
+        android:text="Register" />
+
+    <TextView
+        android:paddingTop="20dp"
+        android:id="@+id/txt_loading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_name"
+        android:textSize="15dp"
+        android:visibility="gone"
+        android:textColor="@android:color/white"
+        android:gravity="center_horizontal"
+        android:text="Loading Register..." />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_below="@+id/txt_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

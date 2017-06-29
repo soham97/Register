@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Register</string>
+    <string name="date">Date</string>
+    <string name="project_name">Project</string>
+    <string name="Vendor">Vendor</string>
+    <string name="teams">Teams</string>
+    <string name="total_teams">Total teams</string>
+    <string name="dc">DC test quantity</string>
+    <string name="hv">HV test quantity</string>
+    <string name="work">Work</string>
+    <string name="sec">Sec kit</string>
+    <string name="dc_complete">DC compl</string>
+    <string name="hv_complete">HV compl</string>
+    <string name="remarks">"Remarks"</string>
+    <string name="register_search_hint">Search by project</string>
+
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <string name="activity_title_about_us">About Us</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+    <string name="uploading">Uploading to Drive...</string>
+    <string name="restoring">Restoring from Drive...</string>
+    <string name="done">Done</string>
+</resources>

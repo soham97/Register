@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:title="Search"/>
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_add_white_24dp"
+        app:showAsAction="always"
+        android:title="add row"/>
+    <item
+        android:id="@+id/action_pdf"
+        app:showAsAction="never"
+        android:title="create pdf"/>
+    <item
+        android:id="@+id/action_delete_all"
+        app:showAsAction="never"
+        android:title="Delete all"/>
+</menu>

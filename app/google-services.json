@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "39713806730",
+    "project_id": "register-de052"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39713806730:android:f13658a9e77b3b4d",
+        "android_client_info": {
+          "package_name": "com.developers.sd.register"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39713806730-8n8t20l3f9p1jqfl2r42ko9ivq5sr0ec.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.developers.sd.register",
+            "certificate_hash": "f0d4163f96c0c63a3cfd4ac20c6608e7e347df5e"
+          }
+        },
+        {
+          "client_id": "39713806730-gqn2fdia27kpa84t4ar6in6dmuiilos9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-nlRplx6CxmFJXLSGcGFlt0rS96IHvqg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
